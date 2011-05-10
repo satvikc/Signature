@@ -1,5 +1,5 @@
 import os,sys,subprocess
-SIGNATURE_FILE=os.path.dirname(__file__)+"sig"
+SIGNATURE_FILE=os.path.expanduser("~/.mutt/sig")
 FORTUNE_COMMAND="fortune -n 200 -s wisdom"
 def delete_previous():
     fp  = open(SIGNATURE_FILE,"r")

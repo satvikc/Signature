@@ -4,7 +4,7 @@ I wondered if it was possible to include some wise quotes at the end of my email
 ##Variables##
 You just nee to change the following Variable:
 
-* SIGNATURE_FILE : Path to your signature file which you usually include in your muttrc file
+* SIGNATURE_FILE : Path to your signature file which you usually include in your muttrc file. eg if your signature file is at "~/.mutt/signature" then you should have SIGNATURE_FILE = os.path.expanduser("~/.mutt/signature")
 * FORTUNE_COMMAND : fortune command to execute . I only included quotes from the wisdom category , you can use "fortune -f" to see the categories available and add them , eg if you want wisdom and love you can use "fortune -n 200 -s wisdom love" . -n 200 and -s options are to keep quotes short and not to include long quotes. 
 
 ##muttrc configuration##

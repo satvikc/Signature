@@ -2,7 +2,5 @@
 Satvik Chauhan
 [Your Contact details here]
 --------------------------------------------------------------------------------------------------
-"" For if there is a sin against life, it consists perhaps not so much in
-despairing of life as in hoping for another life and in eluding the
-implacable grandeur of this life.
-		-- Albert Camus ""
+"" No people are all bad, just as none are all good.
+Tecumseh, (Shawnee) to his nephew Spemica Lawba 1790 ""
