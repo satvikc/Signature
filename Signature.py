@@ -13,7 +13,10 @@ def delete_previous():
     fp.close()
         
 def add_quote():
-    x=subprocess.getstatusoutput(FORTUNE_COMMAND)
+    if sys.version[0]=='3':
+        x=subprocess.getstatusoutput(FORTUNE_COMMAND)
+    if sys.version[0]=='2':
+        x=[0]+[subprocess.check_output(FORTUNE_COMMAND.split())[:-1]]
     if x[0]==0:
         delete_previous()
         fp = open(SIGNATURE_FILE,"a")

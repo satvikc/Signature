@@ -3,7 +3,7 @@ I wondered if it was possible to include some wise quotes at the end of my email
 
 ##Requirements##
 You need python3.x , mutt and fortune installed on your system.
-
+Athough the script will work for python 2.7 but I recommend python 3.x for it.
 ##Variables##
 You just nee to change the following Variable:
 
