@@ -1,6 +1,9 @@
 #Description#
 I wondered if it was possible to include some wise quotes at the end of my email signature and then I found this wonderful linux program called "fortune". So here I wrote my own python script which includes a random wise quote at the end of my mutt's signature file.
 
+##Requirements##
+You need python3.x , mutt and fortune installed on your system.
+
 ##Variables##
 You just nee to change the following Variable:
 
