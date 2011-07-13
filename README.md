@@ -14,4 +14,4 @@ You just nee to change the following Variable:
 Change the signature line to :
 set signature = "python ~/.mutt/Signature.py|"
 
-My script is located at "~/.mutt/Signature.py" . You can change this path to wherever your script is located. Don't forget to add | at the end of the path , otherwise this will not be executed. Remember your signature file must not contain anything starting with "" otherwise anything afterthat will be truncated.
+My script is located at "~/.mutt/Signature.py" . You can change this path to wherever your script is located. Don't forget to add |(pipe) at the end of the path , otherwise this will not be executed. Remember your signature file must not contain anything starting with "" otherwise anything afterthat will be truncated.
